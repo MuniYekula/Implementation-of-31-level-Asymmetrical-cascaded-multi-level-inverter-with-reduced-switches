@@ -5,12 +5,16 @@ as 31 × 4). This significantly increases the cost, circuit complexity, and
 physical size of the system, making it impractical for many applications. To 
 address these challenges, the proposed multilevel inverter topology is 
 implemented in the existing system. 
+
+
 This advanced topology drastically reduces the required components 
 while still achieving the same 31-level output. Specifically, it utilizes only 10 
 power switches and 4 unequal DC sources, thereby simplifying the design, 
 reducing the cost, and improving overall efficiency. Despite the reduction in 
 hardware, the inverter successfully delivers a 31-level stepped voltage 
 waveform at the output, demonstrating the effectiveness of the design.
+
+
 LIMITATIONS OF EXISTING SYSTEM : 
 The existing systems for multilevel inverters (MLIs) are primarily 
 based on traditional topologies such as neutral-point clamped (NPC), flying 
@@ -19,7 +23,9 @@ have several limitations, including: - High number of power electronic switches,
 cost, and power losses of the inverter. - Limited number of output voltage levels, which can result in high total 
 harmonic distortion (THD) and poor output voltage quality. - Difficulty in achieving high-frequency operation, which is required for 
 many applications such as renewable energy systems and electric vehicles.
- PROPOSED SYSTEM 
+
+
+PROPOSED SYSTEM 
  In this project, a new 31-level basic unit for CMIs and Motor working 
 is proposed. 
 • Based on the proposed basic unit, two multilevel inverters are 
@@ -30,6 +36,8 @@ algorithms.
 N and source N in comparison with CHB inverter and other inverter 
 topologies. 
 • Two Hybrid Source Solar and AC Supply is proposed.
+
+
 In our proposed Inverter topology, we aim to enhance the efficiency 
 and reduce the complexity of the existing model by minimizing the numberof switches. Specifically, the conventional design utilizes 10 switches, while 
 our improved configuration requires only 8 switches, thereby reducing the 
@@ -47,6 +55,8 @@ configured as follows:
  V₂ = 24 V DC 
  V₃ = 48 V DC 
  V₄ = 96 V DC 
+
+
 These voltage levels are chosen in an asymmetrical ratio (1:2:4:8), which 
 enables the generation of a larger number of voltage levels at the output while 
 maintaining a reduced number of power electronic switches. This design 
