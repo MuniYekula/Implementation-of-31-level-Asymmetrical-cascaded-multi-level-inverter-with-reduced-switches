@@ -61,6 +61,7 @@ These voltage levels are chosen in an asymmetrical ratio (1:2:4:8), which
 enables the generation of a larger number of voltage levels at the output while 
 maintaining a reduced number of power electronic switches. This design 
 improves the efficiency, power quality, and modularity of the inverter system. 
+
 ADVANTAGES OF PROPOSED SYSTEM : 
 1. Reduced Switch Count: Achieves 31 output levels using significantly 
 fewer switches than traditional CHB and other topologies, reducing 
